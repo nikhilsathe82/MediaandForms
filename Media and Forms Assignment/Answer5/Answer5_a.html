@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+
+</style>
+
+<body>
+  <h1> Sign Up</h1>
+
+  <form action="" id="signup">
+    <label for="firstName"> First Name</label>
+    <input id="fname" placeholder="Enter your first name" name="firstName" type="text" required min="3" maxlength="30">
+    <br>
+    <label for="lastName">Last Name</label>
+    <input id="lname" placeholder="Enter your last name" name="lastName" type="text" required min="3" maxlength="30" />
+    <br>
+    <label for="email">Email</label>
+    <input id="email" placeholder="nsathe@demo.com" name="email" type="email" required min="3" maxlength="30" />
+    <br>
+    <label for="password">Password</label>
+    <input id="password" placeholder="Enter password" name="password" type="password" required min="8" maxlength="30" />
+    <br>
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" name="confirmPassword" placeholder="********" id="confirmPassword" required />
+    <br>
+    <label for="age">Age </label>
+    <input type="number" name="age" placeholder="38" id="age" required min=0 max=150 />
+    <br>
+    <label for="">Gender:
+      <input type="radio" id="male" value="male" name="gender" checked />
+      <label for="male">Male</label>
+      <input type="radio" id="female" value="female" name="gender" />
+      <label for="female">Female</label>
+      <input type="radio" id="other" value="other" name="gender" />
+      <label for="other">Other</label>
+    </label>
+    <br>
+    <label for="terms">terms:
+      <input type="checkbox" id="terms" required /> I agree to terms and conditions
+    </label>
+    <br>
+    <button type="submit">Register</button>
+
+  </form>
+  <br>
+   <a href="./signin.html"> Sign In </a>
+
+</body>
+
+</html>
